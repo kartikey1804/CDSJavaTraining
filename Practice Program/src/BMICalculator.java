@@ -6,7 +6,7 @@ public class BMICalculator {
         Scanner input = new Scanner(System.in);
         // Enter Your Weight in Kilogram
         System.out.println("Enter Your Weight:");
-        //We are using double as it has More Specific floating point values.
+        //We are using +double as it has More Specific floating point values.
         double weight = input.nextDouble();
         // Enter Your height in Metre
         System.out.println("Enter Your Height:");
