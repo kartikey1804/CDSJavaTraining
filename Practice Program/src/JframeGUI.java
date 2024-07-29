@@ -40,6 +40,7 @@ public class JframeGUI {
                 float bmiValue =weight/(height*height);
                 calculateBmi.setText(String.valueOf(bmiValue));
             }
+
         });
         //logic bmi calculator user height and user weight
         //formula Weight/(height*height)
