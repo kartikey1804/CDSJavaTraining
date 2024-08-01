@@ -6,7 +6,6 @@ class CurrencyConvertorApp {
     public static void main(String[] args) {
         currencyConvertor();
     }
-
     private static void currencyConvertor() {
         JFrame frame = new JFrame("Currency Convertor");
         JLabel rsLabel = new JLabel("Enter amount in Rs: ");
@@ -61,7 +60,6 @@ class CurrencyConvertorApp {
                             "In INR"+ usdToInr
                     );
                 }
-
                 //case 2 when user input in usd
 //                float usdToInr = (float) (usd* 83.73);
 //                result.setText("Usd to Inr :" + usdToInr);
